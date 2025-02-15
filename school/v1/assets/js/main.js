@@ -1,34 +1,3 @@
-/*=== Javascript function indexing hear===========
-
-01.swiperActivation();
-02.counterUp();
-03.searchOption();
-04.cartBarshow();
-05.cartNumberIncDec();
-06.niceSelect();
-07.backToTopInit();
-08.mesonaryTab();
-09.vedioActivation();
-10.stickyHeader();
-11.progressAvtivation();
-12.wowActive();
-13.stickySidebar();
-14.rtslessonToggle();
-15.filterClickButton();
-16.datePicker();
-17.fileUpload();
-18.countDownTimer();
-19.modalOver();
-20.sideMenu();
-21.metismenu();
-22.autoCompleate();
-23.fitRows();
-24.tabToggle();
-25.shapeMove();
-
-
-==================================================*/
-
 (function ($) {
     'use strict';
     let device_width = window.innerWidth;
@@ -895,3 +864,23 @@
 })(jQuery, window)
 
 
+document.addEventListener("contextmenu", (event) => event.preventDefault());
+
+document.addEventListener("keydown", (event) => {
+    if (
+        event.key === "F12" ||
+        (event.ctrlKey && event.shiftKey && event.key === "I") ||
+        (event.ctrlKey && event.shiftKey && event.key === "J") ||
+        (event.ctrlKey && event.key === "U")
+    ) {
+        event.preventDefault();
+    }
+})
+
+setInterval(() => {
+    const devtools = window.outerWidth - window.innerWidth > 160 || window.outerHeight - window.innerHeight > 160;
+    if (devtools) {
+        console.log("Developer tools detected!");
+        window.location.href = "about:blank";
+    }
+}, 1000)
