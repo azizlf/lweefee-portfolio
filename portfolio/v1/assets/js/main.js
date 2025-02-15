@@ -1,3 +1,24 @@
+document.addEventListener("contextmenu", (event) => event.preventDefault());
+
+document.addEventListener("keydown", (event) => {
+    if (
+        event.key === "F12" ||
+        (event.ctrlKey && event.shiftKey && event.key === "I") ||
+        (event.ctrlKey && event.shiftKey && event.key === "J") ||
+        (event.ctrlKey && event.key === "U")
+    ) {
+        event.preventDefault();
+    }
+})
+
+setInterval(() => {
+    const devtools = window.outerWidth - window.innerWidth > 160 || window.outerHeight - window.innerHeight > 160;
+    if (devtools) {
+        console.log("Developer tools detected!");
+        window.location.href = "about:blank";
+    }
+}, 1000)
+
 (function($) {
     "use strict";
 
@@ -746,4 +767,5 @@ document.addEventListener('DOMContentLoaded', function() {
     window.addEventListener('load', function() {
         removePreloader();
     });
-});
+})
+
