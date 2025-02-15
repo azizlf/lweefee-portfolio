@@ -1,0 +1,11 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+demo-themewinter.com	TRUE	/gloreya/	FALSE	1999999999	wp_woocommerce_session_c68c2d0835671582fdfea188f9103061	t_82c85a24893068784003f00a79cefb%7C%7C1739683397%7C%7C1739679797%7C%7Ca484a2c36e41f480e8dca77777baaaab
+demo-themewinter.com	TRUE	/gloreya/	FALSE	1999999999	woocommerce_items_in_cart	1
+demo-themewinter.com	TRUE	/gloreya/	FALSE	1999999999	wordpress_test_cookie	WP%20Cookie%20check
+demo-themewinter.com	TRUE	/gloreya/	FALSE	1999999999	woocommerce_cart_hash	db92fd1430f37c12e0bb8064e8eab8e2
+demo-themewinter.com	TRUE	/	FALSE	1999999999	PHPSESSID	i55ecpkb03dr999j73phecap38
+.vimeo.com	TRUE	/	FALSE	1999999999	__cf_bm	dMxyUiKTgWCHFvXZdtGTLh51Naj24eaTOZDK3BUhYsw-1739510699-1.0.1.1-yh97FKcLPwNhdsEhPkhA4.CHQWUSr6UNZG_z5.deqE2gzRtzC4dyYzn1wABneLEu
+.vimeo.com	TRUE	/	FALSE	1999999999	_cfuvid	vKLuZmG2VZSKvwI9Y2FQu5mwyr2VxGjUY2nYn6EzYr8-1739510699333-0.0.1.1-604800000
+player.vimeo.com	TRUE	/	FALSE	1999999999	SameSite	None
+
